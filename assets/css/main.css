@@ -44,10 +44,10 @@ Version: 1.0.0
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #1d92cd;
-  --theme-2: #4da628;
+  --theme: #D4A05A;
+  --theme-2: #1b6a7f;
   --theme-3: #f1ea78;
-  --header: #0e0e0e;
+  --header: #0C2D48;
   --text: #767676;
   --border: #7676764d;
   --border-2: #bdbdbd;
@@ -68,7 +68,6 @@ Version: 1.0.0
   background: var(--theme);
   color: var(--white);
   font-size: 16px;
-  font-weight: 700;
   line-height: 1;
   padding: 18px 32px;
   border-radius: 100px;
@@ -246,7 +245,6 @@ h6 {
 
 h1 {
   font-size: 80px;
-  font-weight: 700;
   line-height: 112%;
 }
 
@@ -342,7 +340,6 @@ h3 {
 
 h4 {
   font-size: 20px;
-  font-weight: 700;
   line-height: 150%;
 }
 
@@ -684,7 +681,7 @@ span {
   right: 0;
   width: 100%;
   height: 80%;
-  background-color: var(--theme);
+  background-color: var(--theme-2);
   z-index: -1;
 }
 
@@ -3802,7 +3799,7 @@ span {
   border-radius: 100px;
   text-align: center;
   color: var(--theme);
-  background-color: rgba(250, 103, 65, 0.3);
+  background-color: rgb(2 28 48 / 77%);
   flex-basis: 21%;
   font-size: 20px;
 }
@@ -5841,7 +5838,7 @@ span {
 .header-top-section {
   position: relative;
   position: relative;
-  border-top: 5px solid #77AAC7;
+  border-top: 5px solid #1B6A7F;
 }
 
 @media (max-width: 1199px) {
@@ -6317,7 +6314,6 @@ span {
 .header-main .main-menu ul li a {
   display: inline-block;
   font-size: 16px;
-  font-weight: 600;
   color: var(--header);
   padding: 20px 0;
   text-align: left;
@@ -6835,7 +6831,6 @@ span {
 
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li {
   font-size: 16px;
-  font-weight: 600;
   text-transform: capitalize;
 }
 
@@ -9586,7 +9581,7 @@ input.main-search-input::placeholder {
   justify-content: space-between;
   padding: 35px 50px;
   border-radius: 18px 18px 0px 0px;
-  background: rgb(65 148 250 / 30%);
+  background: #1b6a7f8f;
 }
 
 @media (max-width: 1199px) {
